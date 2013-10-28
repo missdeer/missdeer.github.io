@@ -1,3 +1,22 @@
-name: 类库的彩票博客 
-markdown: redcarpet
-pygments: true
+markdown:         rdiscount
+pygments:         true
+paginate:         4
+
+title:            类库的流水帐 
+url:              http://missdeer.github.io
+feed:             /atom.xml
+author:
+    name:         类库 
+    email:        missdeer@dfordsoft.com 
+description:      "类库的流水帐"
+
+about: 			  "一个穷疯了的人，一个穷得没了节操的人，一个因为穷而不择手段的人。"
+follow:
+    github:       https://github.com/missdeer
+    twitter:      http://twitter.com/missdeerme
+description:      "类库的流水帐"
+
+
+style: 			  /css/style.css
+blogName: 		  类库
+blogDesc: 		  彩票，C++，流水帐 

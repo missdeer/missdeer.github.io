@@ -1,44 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
-    </head>
-    <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                类库<br />
-                micro ISV<br />
-                missdeer at dfordsoft dot com 
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/missdeer">github.com/missdeer</a><br />
-                <a href="https://twitter.com/missdeerme">twitter.com/missdeerme</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
-
-    </body>
+<head>
+  <!--
+    **
+    *
+    * Author:         PIZn
+    * Contact:        pizner@gmail.com
+    * Theme Name:     Block Rude
+    * Version:        1.0
+    *
+    **
+  -->
+  <meta charset="utf-8" />
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="generator" content="Jekyll" />
+  <meta name="author" content="{{ site.author.name }}" />
+  <meta name="description" content="{{ site.descripton }}" />
+  <link rel="stylesheet" href="{{ site.style }}" type="text/css" />
+  <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
+  <link rel="shortcut icon" href="/blog/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    {% include head.html %} 
+  <section id="content">
+    <article id="contenter">
+      {{ content }}
+    </article>
+  </section>
+    {% include foot.html %}
+</body>
 </html>

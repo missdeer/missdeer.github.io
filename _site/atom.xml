@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+   <title>类库的流水帐</title>
+   <link href="http://missdeer.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+   <link href="http://missdeer.github.io" rel="alternate" type="text/html" />
+   <updated>2013-10-28T10:44:47+08:00</updated>
+   <id>http://missdeer.github.io</id>
+   <author>
+     <name>类库</name>
+     <email>missdeer@dfordsoft.com</email>
+   </author>
+
+   
+   <entry>
+     <title>第一篇</title>
+     <link href="http://missdeer.github.io/about/blog/2013/10/28/first-post.html"/>
+     <updated>2013-10-28T17:21:42+08:00</updated>
+     <id>http://missdeer.github.io/about/blog/2013/10/28/first-post</id>
+     <content type="html">&lt;p&gt;最近在写一个彩票辅助分析程序，觉得研究彩票是个比较有意思的事情，在网上看了很多有根据没根据的文字，想把其中的一部分用程序实现出来，也不知道有没有道理，所以同时想把这些事情记录下来。&lt;/p&gt;
+
+&lt;p&gt;现在对自己建一个blog一点都没有兴趣，对Wordpress更是没兴趣，就选择在github上放这些内容。&lt;/p&gt;
+</content>
+   </entry>
+   
+ 
+</feed>
