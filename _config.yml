@@ -1,25 +1,6 @@
-markdown:         rdiscount
-pygments:         true
-paginate:         4
-
-title:            类库的流水帐 
-url:              http://missdeer.github.io
-feed:             /atom.xml
-author:
-    name:         类库 
-    email:        missdeer at dfordsoft dot com 
-description:      "类库的流水帐"
-
-about: 			  "一个穷疯了的人，一个穷得没了节操的人，一个因为穷而不择手段的人。"
-follow:
-    github:       https://github.com/missdeer
-    twitter:      http://twitter.com/missdeerme
-    facebook:     https://www.facebook.com/missdeerme
-    google:       https://plus.google.com/105535865242455061069
-    linkedin:     http://www.linkedin.com/pub/fan-yang/34/79/b99
-description:      "类库的流水帐"
-
-
-style: 			  /css/style.css
-blogName: 		  立志果黑的类库萤一从此以后好好赚钱 
-blogDesc: 		  流水帐，吐槽，抱怨，阴暗本能 
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://missdeer.github.io
+author: missdeer
+pygments: true
+paginate: 24

@@ -1,13 +1,8 @@
-###主题介绍
+此Git库为我的博客  [七扯](http://blog.sevenCHE.com)，意为七拉八扯。
+使用Jekyll进行搭建，Jekyll是一个Ruby写的程序，可以将Markdown写的文章通过模板生成最终的Html静态文件。
+博客文章的评论功能使用了Disqus。
 
-* version :  1.0
-* name    :  Black Cube Theme
-* color   :  black
-* create  :  2012-04-25
-* author  :  PIZn
-* support :  index, archives, contact
+如果你直接拷贝或Fork本Git库作为自己的博客，一定不要忘记删除我写的文章以及修改 `_includes / comments.md` 中的disqus_shortname，以及修改 `_layouts / default.html`中 google analytics的标识  `_gaq.push(['_setAccount', 'UA-12936429-2']);`。
 
-###Other
+最后感谢您的配合。
 
-这是一款黑色主题，目前支持 3 个页面，分别是 index.html, archives.html,
-contact.html。
