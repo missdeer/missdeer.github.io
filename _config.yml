@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
-url: http://missdeer.github.io
+url: http://blog.yii.li
 author: missdeer
 pygments: true
 paginate: 24
