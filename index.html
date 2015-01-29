@@ -10,6 +10,10 @@
 <link href="artDialog/skins/twitter.css" rel="stylesheet" />
 <script src="artDialog/artDialog.min.js"></script>
 <script type="text/javascript">
+var ishttps = 'https:' == document.location.protocol ? true: false;
+if(ishttps == false){
+	location.href = location.href.replace("http://", "https://");
+}
 $(document).ready(function(){
 	$("img").mouseover(function(){
 		$(this).animate({opacity:"0.5"})}).mouseout(function(){$(this).animate({opacity:"1"});
@@ -27,7 +31,7 @@ $(document).ready(function(){
 	<div class="row">
 		<div class="item_small"><a href="http://weibo.com/missdeer" title="我的新浪微博" target="_blank"><img src="images/sina-weibo.png" alt="Sina Microblog" /></a></div>
 		<div class="item_small"><a href="https://twitter.com/missdeerme" title="Following my Twitter" target="_blank"><img src="images/t.png" alt="Twitter" /></a></div>
-		<div class="item_big"><a href="http://blog.minidump.info" title="Visit My Blog" target="_blank"><img src="images/blog.png" alt="Blog" /></a></div>
+		<div class="item_big"><a href="https://blog.minidump.info" title="Visit My Blog" target="_blank"><img src="images/blog.png" alt="Blog" /></a></div>
 		<div class="item_small"><a href="https://www.facebook.com/missdeerme" title="Visit My Facebook" target="_blank"><img src="images/f.png" alt="Facebook" /></a></div>
 	</div>
 
@@ -39,7 +43,7 @@ $(document).ready(function(){
 	</div>
 
 	<div class="row">
-		<div class="item_middle"><a href="http://about.me/missdeer" title="About Me" target="_blank"><img src="images/me.png" alt="About Me" /></a></div>
+		<div class="item_middle"><a href="https://about.me/missdeer" title="About Me" target="_blank"><img src="images/me.png" alt="About Me" /></a></div>
 		<div class="item_small"><a href="https://bitbucket.org/missdeer" title="BitBucket" target="_blank"><img src="images/bitbucket.png" alt="BitBucket" width="120" height="120" /></a></div>
 		<div class="item_big"><a href="https://github.com/missdeer" title="Github" target="_blank"><img src="images/github.png" alt="Github" /></a></div>
 	</div>
